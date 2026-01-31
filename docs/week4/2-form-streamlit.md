@@ -11,10 +11,14 @@ the [tutorials repository](https://github.com/nicholsons/comp0034-tutorials-2025
 
 Make sure the API is running. Run in Python `src/data/mock_api.py`.
 
+The API by default will be available at http://127.0.0.1:8000
+
 ## Overview
 
-In this activity you will remove the placeholder form from last week and replace with 
-questions and options that allow you to progress to the next question. It will look like this:
+This activity gets multiple choice questions from the database via the REST API, captures a user's
+response and checks if the answer is correct. It replaces the placeholder form from last week
+
+It will look like this:
 
 <img alt="Streamlit example of radio items" src="../img/radio-st.png" style="{width:50%;}" title="Streamlit example of radio items"/>
 

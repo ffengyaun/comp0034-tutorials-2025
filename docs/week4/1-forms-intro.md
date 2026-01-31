@@ -52,13 +52,16 @@ A form can contain the following HTML elements:
 - `<optgroup>` groups together options
 
 Use relevant references to find the range of attributes that can be configured for each of the 
-above.
+above:
+
+- [Mozilla](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms)
+- [W3Schools](https://www.w3schools.com/html/html_forms.asp)
 
 Forms can be styled using Bootstrap or other styling. [Boostrap](https://getbootstrap.com/docs/5.3/forms/overview/) gives examples of how to apply
 styles to achieve different form layouts.
 
 [Next activity (Dash)](2-form-dash.md)
 
-[Next activity (Flask]()
+[Next activity (Flask](2-form-flask.md)
 
-[Next activity (Streamlit)]()
+[Next activity (Streamlit)](2-form-streamlit.md)

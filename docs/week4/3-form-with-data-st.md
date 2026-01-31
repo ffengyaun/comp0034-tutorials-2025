@@ -27,7 +27,7 @@ Names in the navigation are created based on the file names so you may want to r
 paralympics_dashboard.py.
 
 For more control over navigation and names refer to the more customisable approach in the Streamlit
-documentation. Other options and concepts are covered in the documentation that you may wangt to
+documentation. Other options and concepts are covered in the documentation that you may want to
 refer to e.g. to understand how the `st.session_state` is shared across pages.
 
 The [documentation](https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app) gives
@@ -177,4 +177,4 @@ However, if you cached the value that counted the number of questions in the dat
 need to also update that. You can clear a function's cache with `function_name.clear()` or clear the
 entire cache with `st.cache_data.clear()`.
 
-## END ##
+[Tutor code](4-end.md)

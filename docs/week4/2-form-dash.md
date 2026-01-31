@@ -8,9 +8,12 @@ Make sure you have the latest versions of the following files from the [tutorial
 - `mock_api.py` updated to include more routes
 - `paralympics.db` this has questions and responses in the database
 
-Make sure the API is running. Run in Python `src/data/mock_api.py`.
+The API by default will be available at http://127.0.0.1:8000
 
 ## Overview
+
+This activity gets multiple choice questions from the database via the REST API, captures a user's
+response and checks if the answer is correct.
 
 Rather than use an HTML form, in Dash you attach callbacks to input components. You can still use
 Bootstrap styling by using the inputs from dash-bootstrap-components e.g., `dbc.Input`.
@@ -146,7 +149,7 @@ For subsequent questions, you need a callback to replace this.
 
 The callback will have:
 
-- `Output`: the children of the question div e.g.`html.Div(id="question")`
+- `Output`: the children of the question `Div` e.g.`html.Div(id="question")`
 - `Input`: the question id stored in `dcc.Store(id="q_index", data=1, storage_type="session")`
 
 The function should:

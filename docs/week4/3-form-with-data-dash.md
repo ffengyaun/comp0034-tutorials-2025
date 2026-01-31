@@ -108,7 +108,7 @@ access the values from the states and use that to create JSON:
 
 ```python
 @app.callback(
-    Output("form-mesage", "children"),
+    Output("form-message", "children"),
     Input("new-question-submit-button", "n_clicks"),
     State("question_text", "value"),
     # states for the 4 response text inputs
@@ -202,7 +202,7 @@ This is my solution:
         # Get the id of the newly saved question from the response
         question_id = response.json()["id"]
         
-        # Use the API to save the question's reponse options to the database
+        # Use the API to save the question's response options to the database
         for idx, r in enumerate(responses, start=1):
             r["question_id"] = question_id
             resp = requests.post(f"{API_BASE_URL}/response", json=r)
@@ -218,4 +218,4 @@ Use the form to add a new question.
 If the question saved successfully then when you start the question tab again it should include
 the new question.
 
-## END ##
+[Tutor code](4-end.md)
